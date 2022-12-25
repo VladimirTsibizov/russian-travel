@@ -9,18 +9,21 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
+        max-width: 1024px;
         width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover {
+        max-width: 768px;
         margin-bottom: 88px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
     .cover {
+        max-width: 480px;
         margin-bottom: 64px;
     }
 }

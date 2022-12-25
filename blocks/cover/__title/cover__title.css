@@ -6,7 +6,7 @@
     line-height: 76px;
     text-align: center;
     color: #FFFFFF;
-    width: 560px;
+    max-width: 560px;
     text-align: center;
     position: relative;
     display: flex;
@@ -15,7 +15,7 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
     .cover__title {
         margin-bottom: 16px;
         width: 288px;
