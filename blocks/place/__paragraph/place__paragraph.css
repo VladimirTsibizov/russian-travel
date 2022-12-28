@@ -8,9 +8,11 @@
     margin: 0 0 26px 0;
     padding: 0;
 }
-.place__paragraph:last-of-type{
+
+.place__paragraph:last-of-type {
     margin: 0;
 }
+
 @media screen and (max-width:1024px) {
     .place__paragraph {
         margin-bottom: 27px;
@@ -21,18 +23,19 @@
     .place__paragraph {
         font-size: 16px;
         margin-bottom: 25px;
-        margin-top: 32px;
     }
 }
 
 @media screen and (max-width:320px) {
-    .place__paragraph{
+    .place__paragraph {
+        margin-top: 32px;
         margin-left: 16px;
         margin-right: 16px;
     }
-    .place__paragraph:last-of-type{
+
+    .place__paragraph:last-of-type {
         margin-left: 16px;
         margin-right: 16px;
     }
-    
+
 }
